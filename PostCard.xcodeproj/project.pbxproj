@@ -13,6 +13,7 @@
 		112206271A0E243900739BDD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112206261A0E243900739BDD /* Images.xcassets */; };
 		1122062A1A0E243900739BDD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 112206281A0E243900739BDD /* LaunchScreen.xib */; };
 		112206361A0E243900739BDD /* PostCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112206351A0E243900739BDD /* PostCardTests.swift */; };
+		112206401A0E348500739BDD /* bg800_600.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1122063F1A0E348500739BDD /* bg800_600.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		1122062F1A0E243900739BDD /* PostCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		112206341A0E243900739BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		112206351A0E243900739BDD /* PostCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardTests.swift; sourceTree = "<group>"; };
+		1122063F1A0E348500739BDD /* bg800_600.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bg800_600.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		1122061D1A0E243900739BDD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1122063F1A0E348500739BDD /* bg800_600.gif */,
 				1122061E1A0E243900739BDD /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,6 +198,7 @@
 				112206251A0E243900739BDD /* Main.storyboard in Resources */,
 				1122062A1A0E243900739BDD /* LaunchScreen.xib in Resources */,
 				112206271A0E243900739BDD /* Images.xcassets in Resources */,
+				112206401A0E348500739BDD /* bg800_600.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +411,7 @@
 				1122063B1A0E243900739BDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1122063C1A0E243900739BDD /* Build configuration list for PBXNativeTarget "PostCardTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				1122063E1A0E243900739BDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
